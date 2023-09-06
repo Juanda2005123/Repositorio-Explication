@@ -1,17 +1,17 @@
 CONFIGURAR GIT
 
-1. git config --global user.name "Juan David Quintero PeÒa"
+1. git config --global user.name "Juan David Quintero Pe√±a"
 2. git config --global user.email 1058932648@u.icesi.edu.co
 
 BASICO
 
 1. Lo primero que se hace es crear el repositorio en GitHub
-2. git clone ìEnlace del repositorioî
-3. git status --- Permite revisar el estado del repositorio, es decir, se pueden ver los archivos que se encuentran en el repositorio sin aÒadir o modificados -O- ver si esta atrasado por algun commit.
-4. git add . -O- git add "Nombre del archivo" --- Esto permite aÒadir un archivo o los archivos modificados.
+2. git clone ‚ÄúEnlace del repositorio‚Äù
+3. git status --- Permite revisar el estado del repositorio, es decir, se pueden ver los archivos que se encuentran en el repositorio sin a√±adir o modificados -O- ver si esta atrasado por algun commit.
+4. git add . -O- git add "Nombre del archivo" --- Esto permite a√±adir un archivo o los archivos modificados.
 5. git reset "Nombre del archivo" --- Esto permite eliminar el archivo que se subio con el git add.
 6. git restore "Nombre del archivo" --- Esto permite borrar los cambios realizados en el archivo, devolviendolo a la version anterior.
-7. git commit -m "Mensaje que explica que se ha hecho" --- Esto permite aÒadir la version y el mensaje de lo que se realizo, ya queda guardada la version.
+7. git commit -m "Mensaje que explica que se ha hecho" --- Esto permite a√±adir la version y el mensaje de lo que se realizo, ya queda guardada la version.
 8. git push --- Esto permite subir la version que se ha actualizado al gitHub, es decir, a la nube.
 9. git pull --- Esto permite actualizar la rama, es decir, si se ha hecho algun commit, con el git pull se puede traer el commit para estar actualizado.
 10. git diff "Nombre del archivo" --- Esto permite observar que lineas han sido modificadas en el archivo.
@@ -21,8 +21,12 @@ BRANCHS
 
 1. git branch "Nombre de la rama" --- Esto permite crear una rama (branch)
 2. git checkout "Nombre de la rama" --- Esto permite cambiar de rama.
-3. git push origin "Nombre de la rama" --- Esto permite realizar el comando push desde la rama "Nombre de la rama"
-4. 
+3. git checkout -b "Nombre de la rama" --- Crea y te cambia a la rama nueva.
+4. git checkout -d "Nombre de la rama" --- Elimina la rama.
+5. git merge "Nombre de la rama" --- Esto hace un merge entre la rama en la que estamos y la rama "Nombre de la rama".
+
+6. git push origin "Nombre de la rama" --- Esto permite realizar el comando push desde la rama "Nombre de la rama"
+6. 
 
 GIT FLOW --- https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow
 
